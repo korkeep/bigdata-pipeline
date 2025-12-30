@@ -31,3 +31,13 @@ Building a pipeline to effectively process bigdata using HDFS and Kafka 🐘
 | Updates              | ❌ Not supported          | ✅ Supported                        | ✅ Supported              |
 | Typical Use Cases    | Logs, images, large files | Real-time lookups, time-series data | Real-time analytics, OLAP |
 | Common Integrations  | Hive, Spark               | HBase API                           | Impala, Spark             |
+
+##### Data Warehouse vs Data Lake
+
+| Category    | Data Warehouse                                  | Data Lake                                          |
+| ----------- | ----------------------------------------------- | -------------------------------------------------- |
+| Data Type   | Primarily structured data                       | Structured, semi-structured, and unstructured data |
+| Schema      | Schema-on-Write (schema defined at ingestion)   | Schema-on-Read (schema applied at query time)      |
+| Hardware    | High-performance servers (traditional scale-up) | Commodity hardware (scale-out)                     |
+| Scalability | Well-suited for vertical scaling (scale-up)     | Well-suited for horizontal scaling (scale-out)     |
+| Software    | RDBMS, MPP databases (Oracle, Teradata, etc.)   | Hadoop, Spark, HDFS, Object Storage                |
