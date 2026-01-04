@@ -17,7 +17,7 @@ Building a pipeline to effectively process bigdata using HDFS and Kafka 🐘
 | Data Storage                   | **HBase**     | A distributed NoSQL database for real-time read and write operations                                  |
 | Data Storage                   | **Kudu**      | A columnar storage system supporting fast updates and analytical queries                              |
 
-##### HDFS vs HBase vs Kudu
+##### HDFS vs HBase vs Kudu: Distributed Data Storage
 
 | Category             | HDFS                      | HBase                               | Kudu                      |
 | -------------------- | ------------------------- | ----------------------------------- | ------------------------- |
@@ -41,3 +41,14 @@ Building a pipeline to effectively process bigdata using HDFS and Kafka 🐘
 | Hardware    | High-performance servers (traditional scale-up) | Commodity hardware (scale-out)                     |
 | Scalability | Well-suited for vertical scaling (scale-up)     | Well-suited for horizontal scaling (scale-out)     |
 | Software    | RDBMS, MPP databases (Oracle, Teradata, etc.)   | Hadoop, Spark, HDFS, Object Storage                |
+
+##### YARN: Distributed Data Processing
+
+| Component           | Role                    | Description                                                      |
+| ------------------- | ----------------------- | ---------------------------------------------------------------- |
+| Resource Manager    | Cluster manager         | Manages overall cluster resources and application lifecycle      |
+| Scheduler           | Resource allocator      | Allocates resources to applications based on scheduling policies |
+| Application Manager | Application controller  | Handles application submission and starts Application Masters    |
+| Node Manager        | Node agent              | Manages node-level resources and runs containers                 |
+| Application Master  | Application coordinator | Requests resources and manages application execution             |
+| Container           | Execution unit          | A resource-isolated environment where tasks run                  |
