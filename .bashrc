@@ -1,0 +1,16 @@
+######### HADOOP-3.3.6 PATH ########
+export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
+export HADOOP_HOME=/home/ubuntu/hadoop
+export PATH=$HADOOP_HOME/bin:$HADOOP_HOME/sbin:$PATH
+
+export HADOOP_MAPRED_HOME=$HADOOP_HOME
+export HADOOP_COMMON_HOME=$HADOOP_HOME
+export HADOOP_HDFS_HOME=$HADOOP_HOME
+export HADOOP_YARN_HOME=$HADOOP_HOME
+export HADOOP_CONF_DIR=$HADOOP_HOME/etc/hadoop
+
+export HDFS_NAMENODE_USER=ubuntu
+export HDFS_DATANODE_USER=ubuntu
+export HDFS_SECONDARYNAMENODE_USER=ubuntu
+export YARN_RESOURCEMANAGER_USER=ubuntu
+export YARN_NODEMANAGER_USER=ubuntu
