@@ -1,0 +1,20 @@
+# Maven
+target/
+
+# Maven wrapper build files
+.mvn/wrapper/maven-wrapper.jar
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# resources
+resources
