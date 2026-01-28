@@ -27,12 +27,12 @@ public class FredColumnPojo {
     private String id;
 
     @JsonProperty("realtime_start")
-    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-mm-dd")
+    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd")
     @JsonDeserialize(using = LocalDateDeserializer.class)
     private LocalDate realtime_start;
     
     @JsonProperty("realtime_end")
-    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern="yyyy-mm-dd")
+    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern="yyyy-MM-dd")
     @JsonDeserialize(using = LocalDateDeserializer.class)
     private LocalDate realtime_end;
 
@@ -40,12 +40,12 @@ public class FredColumnPojo {
     private String title;
 
     @JsonProperty("observation_start")
-    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern="yyyy-mm-dd")
+    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern="yyyy-MM-dd")
     @JsonDeserialize(using = LocalDateDeserializer.class)
     private LocalDate observation_start;
 
     @JsonProperty("observation_end")
-    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern="yyyy-mm-dd")
+    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern="yyyy-MM-dd")
     @JsonDeserialize(using = LocalDateDeserializer.class)
     private LocalDate observation_end;
 
