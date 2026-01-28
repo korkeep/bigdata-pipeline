@@ -18,6 +18,7 @@ import lombok.Setter;
 
 @Data
 @AllArgsConstructor
+@NoArgsConstructor
 @Getter
 @Setter
 @JsonPropertyOrder({
