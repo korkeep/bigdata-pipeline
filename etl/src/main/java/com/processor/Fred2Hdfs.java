@@ -13,7 +13,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 public class Fred2Hdfs {
     
     public enum APITYPE{
-        SEARCH("series/search");
+        SEARCH("series/search"),
         OBSERVATION("series/observations");
 
         private String apiType;
@@ -24,7 +24,7 @@ public class Fred2Hdfs {
     }
 
     public enum FREQUENCY{
-        MONTH('M');
+        MONTH('M'),
         YEAR('A');
 
         private char freq;
